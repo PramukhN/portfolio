@@ -37,6 +37,11 @@ header h1 {
     font-size: 2.5em;
 }
 
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
@@ -55,6 +60,41 @@ header nav ul li a {
 
 header nav ul li a:hover {
     text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero .btn:hover {
+    background: #ff7e5f;
+    color: #fff;
 }
 
 /* Main Section Styling */
@@ -155,4 +195,3 @@ footer {
         height: 120px;
     }
 }
-
