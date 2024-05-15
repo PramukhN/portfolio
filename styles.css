@@ -73,6 +73,19 @@ header nav ul li a:hover {
     color: #333;
 }
 
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 #about p, #skills ul, #experience .experience-item, #projects .project-item, #contact p {
     margin-bottom: 20px;
 }
@@ -130,5 +143,15 @@ footer {
     .container {
         width: 100%;
         padding: 0 1rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 120px;
+        height: 120px;
     }
 }
